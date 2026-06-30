@@ -1,0 +1,47 @@
+{
+  "name": "rest-api-node.js-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonaLakhotia/REST-API-Node.js-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SonaLakhotia/REST-API-Node.js-Express/issues"
+  },
+  "homepage": "https://github.com/SonaLakhotia/REST-API-Node.js-Express#readme",
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.9",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0",
+    "ts-express": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "@types/cors": "^2.8.19",
+    "@types/jest": "^30.0.0",
+    "@types/morgan": "^1.9.10",
+    "eslint": "^10.6.0",
+    "eslint-plugin-jest": "^29.15.4",
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "prettier": "3.9.4",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.62.1"
+  }
+}
